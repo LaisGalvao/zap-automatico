@@ -225,15 +225,28 @@ const form = reactive({
 })
 
 const handleSubmit = () => {
+  // Validar campos obrigatórios
+  if (!form.nome.trim() || !form.telefone.trim() || !form.negocio) {
+    alert('Por favor, preencha todos os campos obrigatórios.')
+    return
+  }
+  
+  // Validar formato básico do telefone (apenas números e alguns caracteres permitidos)
+  const phoneRegex = /^[\d\s\(\)\-]+$/
+  if (!phoneRegex.test(form.telefone)) {
+    alert('Por favor, insira um número de telefone válido.')
+    return
+  }
+  
   // Criar mensagem para WhatsApp
   const whatsappNumber = '5511997628274'
   let message = `*Nova solicitação de automação*\n\n`
-  message += `*Nome:* ${form.nome}\n`
-  message += `*WhatsApp:* ${form.telefone}\n`
+  message += `*Nome:* ${form.nome.trim()}\n`
+  message += `*WhatsApp:* ${form.telefone.trim()}\n`
   message += `*Tipo de negócio:* ${form.negocio}\n`
   
-  if (form.mensagem) {
-    message += `*Mensagem:* ${form.mensagem}\n`
+  if (form.mensagem.trim()) {
+    message += `*Mensagem:* ${form.mensagem.trim()}\n`
   }
 
   // Codificar a mensagem para URL
