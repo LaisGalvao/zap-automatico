@@ -5,7 +5,7 @@
       <div class="absolute inset-0 bg-gradient-to-br from-burnt-orange/20 to-purple/20"></div>
       <div class="container mx-auto px-4 py-20 relative z-10">
         <div class="max-w-4xl mx-auto text-center">
-          <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-burnt-orange to-purple bg-clip-text text-transparent">
+          <h1 class="text-5xl md:text-7xl font-bold mb-6 gradient-text">
             Zap que Trabalha por Você
           </h1>
           <p class="text-xl md:text-2xl mb-8 text-gray-300">
@@ -32,7 +32,7 @@
     <!-- Features Section -->
     <section id="features" class="py-20 bg-gradient-to-b from-black to-gray-900">
       <div class="container mx-auto px-4">
-        <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-burnt-orange to-purple bg-clip-text text-transparent">
+        <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 gradient-text">
           Perfeito para Seu Negócio
         </h2>
         <p class="text-center text-gray-400 mb-16 text-lg">
@@ -125,7 +125,7 @@
     <section id="contato" class="py-20 bg-gradient-to-b from-gray-900 to-black">
       <div class="container mx-auto px-4">
         <div class="max-w-2xl mx-auto">
-          <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-burnt-orange to-purple bg-clip-text text-transparent">
+          <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 gradient-text">
             Comece Agora
           </h2>
           <p class="text-center text-gray-400 mb-12 text-lg">
@@ -199,7 +199,7 @@
     <footer class="bg-black py-10 border-t border-gray-800">
       <div class="container mx-auto px-4">
         <div class="text-center">
-          <h3 class="text-2xl font-bold mb-2 bg-gradient-to-r from-burnt-orange to-purple bg-clip-text text-transparent">
+          <h3 class="text-2xl font-bold mb-2 gradient-text">
             Zap que Trabalha por Você
           </h3>
           <p class="text-gray-400 mb-4">
