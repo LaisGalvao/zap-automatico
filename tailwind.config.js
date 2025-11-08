@@ -2,13 +2,17 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js}",
   ],
   theme: {
     extend: {
       colors: {
-        'burnt-orange': '#ff6b35',
-        'purple': '#8b5cf6',
+        brandPurple: '#7C3AED',
+        brandGreen: '#22C55E',
+        ink: '#0B0B14',
+        inkLight: '#F8FAFC',
+        inkMuted: '#CBD5E1',
+        inkBorder: '#334155',
       },
     },
   },

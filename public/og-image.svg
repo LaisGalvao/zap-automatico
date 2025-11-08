@@ -1,0 +1,31 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ogGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#22C55E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0B0B14"/>
+  
+  <!-- Gradient overlay -->
+  <rect width="1200" height="630" fill="url(#ogGradient)" opacity="0.1"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="200" cy="150" r="100" fill="url(#ogGradient)" opacity="0.2"/>
+  <circle cx="1000" cy="500" r="150" fill="url(#ogGradient)" opacity="0.15"/>
+  
+  <!-- Text -->
+  <text x="600" y="280" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="bold" fill="#F8FAFC" text-anchor="middle">
+    Zap que Trabalha por Você
+  </text>
+  
+  <text x="600" y="350" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="#CBD5E1" text-anchor="middle">
+    Automação de WhatsApp para pequenos negócios
+  </text>
+  
+  <!-- WhatsApp icon -->
+  <circle cx="600" cy="480" r="60" fill="url(#ogGradient)" opacity="0.3"/>
+  <path d="M600,440 C572.39,440 550,462.39 550,490 C550,497.4 551.8,504.4 555,510.5 L552,530 L572,527 C577.8,530 584.6,532 592,532 C619.61,532 642,509.61 642,490 C642,462.39 619.61,440 592,440 Z" fill="url(#ogGradient)"/>
+</svg>
